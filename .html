@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Vinicius - Reflexões Cristãs</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #2E8B57; color: white; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; background-color: #fff; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        nav a { margin: 0 15px; text-decoration: none; color: #2E8B57; font-weight: bold; }
+        section { padding: 20px; }
+        footer { background-color: #2E8B57; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        .content { max-width: 800px; margin: auto; background: white; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .post { margin-bottom: 20px; }
+        .post h2 { color: #2E8B57; }
+        .post p { color: #333; }
+        .post a { color: #2E8B57; text-decoration: none; }
+        .post a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Blog do Vinicius - Reflexões Cristãs</h1>
+</header>
+
+<nav>
+    <a href="#about">Sobre Mim</a>
+    <a href="#blog">Blog</a>
+    <a href="#projects">Projetos</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<section id="about" class="content">
+    <h2>Sobre Mim</h2>
+    <p>Meu nome é Vinicius, sou cristão dedicado, envolvido na comunidade e focado em ajudar a transformar vidas através dos ensinamentos de Jesus. Minha trajetória de fé inclui experiências profundas com a igreja e projetos comunitários que visam evangelizar e educar sobre a Bíblia.</p>
+</section>
+
+<section id="blog" class="content">
+    <h2>Blog</h2>
+
+    <div class="post">
+        <h2>Título da Reflexão 1</h2>
+        <p>Resumo ou introdução breve da reflexão. <a href="post1.html">Leia mais...</a></p>
+    </div>
+
+    <div class="post">
+        <h2>Título da Meditação 1</h2>
+        <p>Resumo ou introdução breve da meditação. <a href="post2.html">Leia mais...</a></p>
+    </div>
+
+    <div class="post">
+        <h2>Título do Estudo 1</h2>
+        <p>Resumo ou introdução breve do estudo. <a href="post3.html">Leia mais...</a></p>
+    </div>
+
+    <!-- Adicione mais posts conforme necessário -->
+</section>
+
+<section id="projects" class="content">
+    <h2>Projetos</h2>
+    <p>Destaque projetos em que você está envolvido, como o "Caminho da Fé" e outros relacionados à sua comunidade e fé.</p>
+</section>
+
+<section id="contact" class="content">
+    <h2>Contato</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Vinicius - Reflexões Cristãs. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
